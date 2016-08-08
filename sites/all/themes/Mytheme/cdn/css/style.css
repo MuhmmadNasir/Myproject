@@ -1,0 +1,22 @@
+.navbar{
+	background-color:gray;
+}
+.navbar li a:link{
+
+color: #FFF;
+
+}
+
+
+
+.navbar li a: visited{
+
+color: #FFF;
+
+}
+
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
+{
+     color:blue;
+}
