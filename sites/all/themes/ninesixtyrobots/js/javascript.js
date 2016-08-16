@@ -1,10 +1,9 @@
+(function($){ 
 
-
-
-jQuery(document).ready(function(){
-  jQuery('#edit-search-block-form--2 input:text').autofill({
+$(document).ready(function(){
+  $('#edit-search-block-form--2').autofill({
     value: "Search..."
   });
 });
 
-
+})(jQuery);
